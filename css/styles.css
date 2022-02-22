@@ -240,6 +240,11 @@ img {
   padding: 10px 32px;
   border: 1px solid var(--accent-text-color);
   border-radius: 4px;
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  transform: scale(1.05);
 }
 .hero-container {
   max-width: 1600px;
@@ -479,10 +484,6 @@ img {
   display: flex;
   justify-content: baseline;
   align-items: baseline;
-}
-
-.social-container {
-  margin-top: 12px;
 }
 
 .address {
